@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width">
+	<title>CASUAL</title>
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body class="pageGrid">
+
+<main>
+    <div class="hero partsGrid">
+		<h1>CASUAL</h1>
+		<p>
+			Outdoor Camping since 2001
+		</p>
+		<figure>
+			<img src="img/tent.jpg" alt="">
+		</figure>
+	</div>
+
+	<div class="msg msgBlack partsGrid">
+		<figure>
+			<img src="img/tent-green.jpg" alt="">
+		</figure>
+		<div class="text">
+			<h2>Start the Adventure</h2>
+			<p class="text-subtitle">Let's Go Outside</p>
+			<p class="text-body">Ready for adventure? You can leave all to us, enjoy your own packed, or visit sites worldwide with minimal baggage. There are many styles of enjoyment to be had there. Reflect on your favorite one in your adventure!</p>
+			<p class="text-link"><a href="article.html">More &gt;&gt;&gt;</a></p>
+		</div>
+	</div>
+
+	<div class="msg msgWhite partsGrid">
+		<figure>
+			<img src="img/fire.jpg" alt="">
+		</figure>
+		<div class="text">
+			<h2>Casual Experience</h2>
+			<p class="text-subtitle">Just Around the Corner</p>
+			<p class="text-body">The choice of sites and fields continues to grow every year, and everything you need to enjoy the outdoor is there. Professional guides will assist you as required, so experience a variety of things.</p>
+			<p class="text-link"><a href="article.html">More &gt;&gt;&gt;</a></p>
+		</div>
+	</div>
+	<section class="contact" id="contact">
+		<h2>Contact Us</h2>
+		<p>Get in touch with us using the form below.</p>
+		<form class="contact-form" action="mailto:casual@gmail.com" method="post">
+		  <label for="name">Name:</label>
+		  <input type="text" id="name" name="name" required>
+		  <label for="email">Email:</label>
+		  <input type="email" id="email" name="email" required>
+		  <label for="message">Message:</label>
+		  <textarea id="message" name="message" rows="5" required></textarea>
+		  <button type="submit">Send Message</button>
+		</form>
+	  </section>
+</main>
+
+<button class="nav-button" onClick="navFunc()">
+	<span class="sr-only">MENU</span>
+</button>
+
+<nav class="nav">
+	<ul>
+		<li><a href="index.html">HOME</a></li>
+		<li><a href="article.html">ABOUT</a></li>
+        <li><a href="product.html">PRODUTS</a></li>
+		<li><a href="#contact" onclick="closeNav();">CONTACT US</a></li>
+        <li><a href="login.html">LOGIN</a></li>
+	</ul>
+</nav>
+
+<ul class="sns">
+	<li><a href="#">
+		<img src="img/logo-twitter.svg"	alt="Twitter">
+	</a></li>
+	<li><a href="#">
+		<img src="img/logo-facebook.svg" alt="Facebook">
+	</a></li>
+	<li><a href="#">
+		<img src="img/logo-instagram.svg" alt="Instagram">
+	</a></li>
+</ul>
+
+<div class="decor">
+	Enjoy Active Outdoor Camping
+</div>
+
+<footer class="footer partsGrid">
+	<div class="text">
+		<div class="site">CASUAL</div>
+		<div class="address">
+			Cis-Mara/Casual Str.<br>
+			20500 Maasai Mara,Kenya<br>
+			+254741534485
+		</div>
+	</div>
+	<div class="chat">
+		<a href="#">
+			<img src="img/chat.svg" alt=""><br>
+			Chat Support
+		</a>
+	</div>
+</footer>
+<a href="#" class="arrow"><i><img src="img/up-arrow.png" alt="" width="50px"></i></a>
+<script src="script.js"></script>
+</body>
+</html>

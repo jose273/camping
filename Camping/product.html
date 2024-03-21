@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width">
+	<title>About Us | CASUAL</title>
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body class="pageGrid">
+
+<main>
+	<div class="headimg partsGrid">
+		<div class="site">CASUAL</div>
+		<figure>
+			<img src="img/camp_site.jpg" alt="">
+		</figure>
+	</div>
+
+	<product class="article partsGrid">
+		<h1>Shop</h1>
+		<section class="tents">
+            <article class="tent">
+              <img src="img/tent1.jpg" alt="Galile 3P Dome Tent">
+              <h2>Galile 3P Dome Tent</h2>
+              <p>Ksh1000.00 ($7.27) each</p>
+              <button>Add to Cart</button>
+            </article>
+            <article class="tent">
+              <img src="img/tent2.jpg" alt="4-Person Cabin Camping Tent">
+              <h2>4-Person Cabin Camping Tent</h2>
+              <p>ksh1000.00 ($7.27) each</p>
+              <button>Add to Cart</button>
+            </article>
+            <article class="tent">
+              <img src="img/tent3.jpg" alt="Cabin Camping Tent">
+              <h2>Cabin Camping Tent</h2>
+              <p>ksh1000.00 ($7.27) each</p>
+              <button>Add to Cart</button>
+            </article>
+            <article class="tent">
+              <img src="img/tent4.jpg" alt="4-Person Sundome">
+              <h2>4-Person Sundome</h2>
+              <p>ksh1000.00 ($7.27) each</p>
+              <button>Add to Cart</button>
+            </article>
+			<article class="tent">
+				<img src="img/tent5.jpg" alt="bristol-8p">
+				<h2>bristol-8p</h2>
+				<p>ksh1000.00 ($7.27) each</p>
+				<button>Add to Cart</button>
+			  </article>
+			  <article class="tent">
+				<img src="img/tent6.jpg" alt="Coleman Directors Camp Chair XL with Cooler">
+				<h2>Coleman Directors Camp Chair XL with Cooler</h2>
+				<p>Ksh 2000.00 ($14.00) each</p>
+				<button>Add to Cart</button>
+			  </article>
+			  <article class="tent">
+				<img src="img/tent7.jpg" alt="Sundome 3P Tent">
+				<h2>Sundome 3P Tent</h2>
+				<p>ksh 2000.00 ($14.00) each</p>
+				<button>Add to Cart</button>
+			  </article>
+			  <article class="tent">
+				<img src="img/tent8.jpg" alt="Lowland Folding Chair">
+				<h2>Lowland Folding Chair</h2>
+				<p>Ksh2000.00 ($14.00) each</p>
+				<button>Add to Cart</button>
+			  </article>
+			  
+        </section>
+
+		<section class="contact" id="contact">
+			<h2>Contact Us</h2>
+			<p>Get in touch with us using the form below.</p>
+			<form class="contact-form" action="mailto:casual@gmail.com" method="post">
+			  <label for="name">Name:</label>
+			  <input type="text" id="name" name="name" required>
+			  <label for="email">Email:</label>
+			  <input type="email" id="email" name="email" required>
+			  <label for="message">Message:</label>
+			  <textarea id="message" name="message" rows="5" required></textarea>
+			  <button type="submit">Send Message</button>
+			</form>
+		  </section>
+
+</main>
+
+<button class="nav-button" onClick="navFunc()">
+	<span class="sr-only">MENU</span>
+</button>
+
+<nav class="nav">
+	<ul>
+		<li><a href="index.html">HOME</a></li>
+		<li><a href="article.html">ABOUT</a></li>
+        <li><a href="product.html">PRODUCTS</a></li>
+		<li><a href="#contact" onclick="closeNav();">CONTACT US</a></li>
+		<li><a href="login.html">LOGIN</a></li>
+	</ul>
+</nav>
+
+<ul class="sns">
+	<li><a href="#">
+		<img src="img/logo-twitter.svg"	alt="Twitter">
+	</a></li>
+	<li><a href="#">
+		<img src="img/logo-facebook.svg" alt="Facebook">
+	</a></li>
+	<li><a href="#">
+		<img src="img/logo-instagram.svg" alt="Instagram">
+	</a></li>
+</ul>
+
+<div class="decor">
+	Enjoy Active Outdoor Camping
+</div>
+
+<footer class="footer partsGrid">
+	<div class="text">
+		<div class="site">CASUAL</div>
+		<div class="address">
+			Cis-Mara/Casual Str.<br>
+			20500 Maasai Mara,Kenya<br>
+			+254741534485
+		</div>
+	</div>
+	<div class="chat">
+		<a href="#">
+			<img src="img/chat.svg" alt=""><br>
+			Chat Support
+		</a>
+	</div>
+</footer>
+<a href="#" class="arrow"><i><img src="img/up-arrow.png" alt="" width="50px"></i></a>
+<script src="script.js"></script>
+</body>
+</html>
